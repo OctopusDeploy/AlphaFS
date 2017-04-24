@@ -87,7 +87,7 @@ namespace AlphaFS.UnitTest
 
       #region ConnectDrive
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_ConnectDrive()
       {
          Console.WriteLine("Network.Host.ConnectDrive()");
@@ -211,7 +211,7 @@ namespace AlphaFS.UnitTest
       
       #region ConnectTo
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_ConnectTo()
       {
          Console.WriteLine("Network.Host.ConnectTo()");
@@ -333,7 +333,7 @@ namespace AlphaFS.UnitTest
 
       #region EnumerateDfsLinks
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_EnumerateDfsLinks()
       {
          Console.WriteLine("Network.Host.EnumerateDfsLinks()");
@@ -390,7 +390,7 @@ namespace AlphaFS.UnitTest
 
       #region EnumerateDfsRoot
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_EnumerateDfsRoot()
       {
          Console.WriteLine("Network.Host.EnumerateDfsRoot()");
@@ -460,7 +460,7 @@ namespace AlphaFS.UnitTest
 
       #region EnumerateDomainDfsRoot
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_EnumerateDomainDfsRoot()
       {
          Console.WriteLine("Network.Host.EnumerateDomainDfsRoot()");
@@ -500,7 +500,7 @@ namespace AlphaFS.UnitTest
 
       #region EnumerateDrives
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_EnumerateDrives()
       {
          Console.WriteLine("Network.Host.EnumerateDrives()");
@@ -512,7 +512,7 @@ namespace AlphaFS.UnitTest
 
       #region GetHostShareFromPath
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_GetHostShareFromPath()
       {
          Console.WriteLine("Network.Host.GetHostShareFromPath\n");
@@ -552,7 +552,7 @@ namespace AlphaFS.UnitTest
 
       #region GetUncName
 
-      [TestMethod]
+      [TestMethod, Timeout(1000)]
       public void AlphaFS_Host_GetUncName()
       {
          Console.WriteLine("Network.Host.GetUncName()");
