@@ -564,38 +564,6 @@ namespace AlphaFS.UnitTest
 
       #endregion // GetFileNameWithoutExtension
 
-      #region GetInvalidFileNameChars (.NET)
-
-      [TestMethod]
-      public void Path_GetInvalidFileNameChars_NET()
-      {
-         Console.WriteLine("Path.GetInvalidFileNameChars()");
-         Console.WriteLine("\nThe .NET method is used.\n");
-
-         UnitTestConstants.StopWatcher(true);
-         foreach (var c in Path.GetInvalidFileNameChars())
-            Console.WriteLine("\tChar: [{0}]", c);
-         Console.WriteLine("\n{0}", UnitTestConstants.Reporter(true));
-      }
-
-      #endregion // GetInvalidFileNameChars (.NET)
-
-      #region GetInvalidPathChars (.NET)
-
-      [TestMethod]
-      public void Path_GetInvalidPathChars_NET()
-      {
-         Console.WriteLine("Path.GetInvalidPathChars()");
-         Console.WriteLine("\nThe .NET method is used.\n");
-
-         UnitTestConstants.StopWatcher(true);
-         foreach (var c in Path.GetInvalidPathChars())
-            Console.WriteLine("\tChar: [{0}]", c);
-         Console.WriteLine("\n{0}", UnitTestConstants.Reporter(true));
-      }
-
-      #endregion // GetInvalidPathChars (.NET)
-
       #region GetPathRoot
 
       [TestMethod]
