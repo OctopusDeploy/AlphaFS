@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{478C6563-C321-4AB5-9D4D-ABFC9C88EBF0}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,11 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaFS", "AlphaFS\AlphaFS.csproj", "{F0F9AF1E-D5B5-4D72-804A-5380622FBDEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaFS.UnitTest", "AlphaFS.UnitTest\AlphaFS.UnitTest.csproj", "{BC336637-FDD7-4D13-9B24-1A888E85A944}"
-EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "AlphaFS.Doc", "AlphaFS.Doc\AlphaFS.Doc.shfbproj", "{81ED470C-0A64-4B10-B37E-61A06DDC497C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F0F9AF1E-D5B5-4D72-804A-5380622FBDEA} = {F0F9AF1E-D5B5-4D72-804A-5380622FBDEA}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShell", "PowerShell", "{9D8AAD55-4083-454F-BBA9-1AB58D2B5FB9}"
 	ProjectSection(SolutionItems) = preProject
@@ -81,26 +76,6 @@ Global
 		{BC336637-FDD7-4D13-9B24-1A888E85A944}.Net452 Debug|Any CPU.Build.0 = Net452 Debug|Any CPU
 		{BC336637-FDD7-4D13-9B24-1A888E85A944}.Net452|Any CPU.ActiveCfg = Net452|Any CPU
 		{BC336637-FDD7-4D13-9B24-1A888E85A944}.Net452|Any CPU.Build.0 = Net452|Any CPU
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net35 Debug|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net35 Debug|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net35|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net35|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net40 Debug|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net40 Debug|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net40|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net40|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net45 Debug|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net45 Debug|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net45|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net45|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net451 Debug|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net451 Debug|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net451|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net451|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net452 Debug|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net452 Debug|Any CPU.Build.0 = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net452|Any CPU.ActiveCfg = Release|x86
-		{81ED470C-0A64-4B10-B37E-61A06DDC497C}.Net452|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
